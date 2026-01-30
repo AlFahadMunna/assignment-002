@@ -21,7 +21,7 @@
   <body class="inter">
     <header>
       <nav
-        class="bg-[#412567] w-[440px] h-[60px] text-white flex justify-between px-5 py-4 mx-auto text-3xl items-center md:hidden"
+        class="bg-[#412567] w-full h-[60px] text-white flex justify-between px-5 py-4 mx-auto text-3xl items-center lg:hidden"
       >
         <h1>
           Tech
@@ -58,6 +58,41 @@
           <button>Subscribe</button> <i class="fa-solid fa-arrow-right"></i>
         </div>
       </nav>
+      <div
+        class="bg-[url('/assets/hero-bg.png')] w-full h-[466px] mx-auto lg:max-w-[1600px] lg:h-[760px] bg-cover bg-center"
+      >
+        <div class="relative">
+          <img
+            class="w-[200px] mx-auto pt-16 lg:w-[350px] lg:pt-24"
+            src="./assets/hero-circle.png"
+            alt=""
+          />
+          <img
+            class="absolute z-10 w-[68px] top-[108px] left-1/2 -translate-x-1/2 lg:left-1/2 lg:-translate-x-1/2 mx-auto lg:w-[150px] lg:top-40"
+            src="./assets/microphone.png"
+            alt=""
+          />
+        </div>
+        <div class="text-white text-center pt-6">
+          <h1 class="text-3xl lg:text-5xl font-bold">TechWave</h1>
+          <p class="font-light opacity-80 pt-1">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+          <div class="flex gap-2 justify-center pt-5">
+            <button
+              class="h-11 w-[200px] bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100FB] rounded-3xl flex items-center justify-center gap-2"
+            >
+              <img src="./assets/spotify.png" alt="" />Listen On Spotify
+            </button>
+            <button
+              class="w-[147px] h-11 border rounded-3xl border-[#00ff88] flex items-center justify-center gap-2 text-[#00ff88]"
+            >
+              <img src="./assets/message.png" alt="" />Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
     <main></main>
     <footer></footer>
